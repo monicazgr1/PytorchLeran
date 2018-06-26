@@ -20,7 +20,7 @@ def is_chinese(uchar):
 
 
 def is_number(uchar):
-    """判断一个unicode是否是数字"""
+    """判断一个unicode是否是数
     if uchar >= u'\u0030' and uchar <= u'\u0039':
         return True
     else:
